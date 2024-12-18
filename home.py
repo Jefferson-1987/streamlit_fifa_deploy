@@ -56,3 +56,15 @@ elif option == "Enviar arquivo .txt":
 # Mensagem final
 st.write("---")
 st.write("Os arquivos são salvos na pasta `uploads` do projeto.")
+
+st.subheader("Arquivos Salvos")
+with engine.connect() as conn:
+    result = conn.execute(arquivos.select())
+    for row in result:
+        st.write(f"**ID:** {row.id} - **Nome:** {row.nome_arquivo} - **Data:** {row.data_criacao}")
+        st.download_button(
+            label=f"Baixar {row.nome_arquivo}",
+            data=row.conteudo,
+            file_name=row.nome_arquivo,
+            mime="text/plain"
+        )
