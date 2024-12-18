@@ -1,5 +1,12 @@
+--upgrade pip
+asyncpg
 streamlit
 openai
+<<<<<<< HEAD
 streamlit 
 psycopg2-binary 
 sqlalchemy
+=======
+metadata
+webbrowser
+>>>>>>> bc3c96ea31eba53ab7dfc09a210429b4c091535b
