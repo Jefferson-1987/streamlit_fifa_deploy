@@ -1,2 +1,6 @@
 streamlit
 openai
+metadata
+webbrowser
+sqlalchemy
+psycopg2-binary
