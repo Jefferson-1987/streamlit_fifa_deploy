@@ -59,4 +59,3 @@ elif option == "Enviar arquivo .txt":
 # Mensagem final
 st.write("---")
 st.write("Os arquivos são salvos na pasta `uploads` do projeto.")
-
