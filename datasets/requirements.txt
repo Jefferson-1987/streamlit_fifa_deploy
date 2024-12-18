@@ -1,7 +1,6 @@
 --upgrade pip
-psycopg2
+asyncpg
 streamlit
 openai
 metadata
 webbrowser
-sqlalchemy==1.4.0
