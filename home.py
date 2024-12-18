@@ -3,13 +3,10 @@ import webbrowser
 import os
 import pandas as pd
 from datetime import datetime 
-import metadata
+
 
 # Diretório para salvar os arquivos
 SAVE_DIR = "uploads"
-
-# Garantir que as tabelas existem
-metadata.create_all(engine)
 
 # Garantir que o diretório existe
 if not os.path.exists(SAVE_DIR):
