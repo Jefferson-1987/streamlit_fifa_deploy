@@ -1,5 +1,5 @@
 --upgrade pip
-psycopg2-binary
+psycopg2
 streamlit
 openai
 metadata
