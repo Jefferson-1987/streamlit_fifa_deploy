@@ -1,3 +1,4 @@
+--upgrade pip
 psycopg2-binary
 streamlit
 openai
