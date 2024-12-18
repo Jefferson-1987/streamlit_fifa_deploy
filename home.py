@@ -10,7 +10,7 @@ if "data" not in st.session_state:
     df_data = df_data.sort_values(by="Overall", ascending=False)
     st.session_state["data"] = df_data
 
-st.markdown("# FIFA23 OFFICIAL DATASET! ⚽️")
+st.markdown("# FIFA OFFICIAL DATASET! ⚽️")
 st.sidebar.markdown("Desenvolvido por [Jefferson](https://github.com/Jefferson-1987/streamlit_fifa_deploy/blob/main/home.py)")
 
 
